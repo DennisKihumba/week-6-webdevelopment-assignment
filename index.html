@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 6 Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Web Page</h1>
+
+  <!-- Interactive Section 1: Button -->
+  <section>
+    <h2>Click the Button</h2>
+    <button id="colorBtn">Change Background Color</button>
+  </section>
+
+  <!-- Interactive Section 2: Toggle Password -->
+  <section>
+    <h2>Password Visibility</h2>
+    <input type="password" id="passwordField" placeholder="Enter password">
+    <button id="togglePassword">Show/Hide</button>
+  </section>
+
+  <!-- Form Section -->
+  <section>
+    <h2>Registration Form</h2>
+    <form id="myForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="formPassword" name="formPassword"><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
